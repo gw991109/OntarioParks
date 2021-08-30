@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Superman",
+    "email": "super@gmail.com",
+    "password": "123",
+    "preference": [
+      "natural",
+      "historical"
+    ]
+  }
+]

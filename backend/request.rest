@@ -1,0 +1,41 @@
+GET http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "super@gmail.com",
+    "password": "123"
+}
+
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name": "Superman2",
+    "email": "super2@gmail.com",
+    "password": "123",
+    "preference": []
+}
+
+###
+
+POST http://localhost:3000/preference
+Content-Type: application/json
+
+{
+    "email": "super@gmail.com",
+    "preference": ["natural", "historical"]
+}
+
+###
+
+GET http://localhost:3000/attractions
+Content-Type: application/json
+
+{
+    "lat": 43.767676,
+    "lng": -79.337910,
+    "preference":["natural"]
+}
